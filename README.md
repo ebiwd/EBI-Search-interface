@@ -1,5 +1,5 @@
 # EBI-Search-interface
-Some ideas for the search interface
+Some ideas for the search interface -- we're aiming to clear up some problems with "sidebar blindnes". 
 
 ## What to do here?
 - Comment and see the ideas
