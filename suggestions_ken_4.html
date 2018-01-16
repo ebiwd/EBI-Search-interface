@@ -13,9 +13,9 @@
 
     <link rel="icon" type="image/png" href="http://www.ebi.ac.uk/ebisearch/favicon.png">
 
-    <script defer="defer" src="https://www.ebi.ac.uk/web_guidelines/js/cookiebanner.js"></script>
-    <script defer="defer" src="https://www.ebi.ac.uk/web_guidelines/js/foot.js"></script>
-    <script defer="defer" src="https://www.ebi.ac.uk/web_guidelines/js/script.js"></script>
+    <!-- <script defer="defer" src="https://www.ebi.ac.uk/web_guidelines/js/cookiebanner.js"></script> -->
+    <!-- <script defer="defer" src="https://www.ebi.ac.uk/web_guidelines/js/foot.js"></script> -->
+    <!-- <script defer="defer" src="https://www.ebi.ac.uk/web_guidelines/js/script.js"></script> -->
 
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Intl.~locale.en"></script>
     <link href="https://www.ebi.ac.uk/ebisearch/styles.58315057dd769c7fce36.bundle.css" rel="stylesheet">
@@ -492,25 +492,57 @@
                             <uniprot-entry-detail _nghost-tbl-29="">
                               <div _ngcontent-tbl-29="" class="result-entry columns medium-12">
                                 <div class=" ">
-                                  <h4 class="ebi-color" _ngcontent-tbl-29="">
-                                    <a rel="nofollow" href="http://www.uniprot.org/uniprot/P08729" title="View in the UniProtKB website">P08729</a>
-                                    <span _ngcontent-tbl-29="">(K2C7_HUMAN)</span>
-                                  </h4>
-                                  <span class="small secondary-color">
-                                    <span _ngcontent-tbl-95="" class="title">Source: UniProtKB (ID: K2C7_HUMAN)</span>
-                                  </span>
-                                  <p class="">
-                                    <!--template bindings={}--><span _ngcontent-tbl-29=""><em>Keratin</em>, type II cytoskeletal 7</span><br _ngcontent-tbl-29="">
-                                    <!--template bindings={}--><span _ngcontent-tbl-29="" class="organism_field">Homo sapiens</span>
-                                    <!--template bindings={}-->(<span _ngcontent-tbl-29="">Reviewed</span>)<br _ngcontent-tbl-29="">
+
+                                  <a rel="nofollow" href="http://www.uniprot.org/uniprot/P08729" title="View in the UniProtKB website">
+                                    <h4 class="ebi-color" _ngcontent-tbl-29="">P08729 (K2C7_HUMAN)</h4>
+                                    <span _ngcontent-tbl-95="" class="title small secondary-color">Source: UniProtKB, K2C7_HUMAN</span>
+                                  </a>
+
+                                  <div class="">
+                                    <span _ngcontent-tbl-29=""><em>Keratin</em>, type II cytoskeletal 7</span><br _ngcontent-tbl-29="">
+                                    <span _ngcontent-tbl-29="" class="organism_field">Homo sapiens</span>
+                                    (<span _ngcontent-tbl-29="">Reviewed</span>)<br _ngcontent-tbl-29="">
                                     <span _ngcontent-tbl-29="" class="fieldName">Secondary accession number(s): </span>
                                     <span _ngcontent-tbl-29="">Q92676, Q9BUD8, Q9Y3R7</span>
-                                  </p>
-                                  <div class="   margin-bottom-none padding-bottom-medium ">
-                                    <small><strong>Cross references:</strong> <a href="#">Genomes & metagenomes</a> <a href="#">Nucleotide sequence</a> <a class="hidden" href="#">Protein sequence</a> <a href="#" class="show-more no-underline"><span class="icon icon-functional" data-icon="u"></span> show more</a></small>
-                                    <br/><small>
-                                    <strong>Formats:</strong> <a href="#">Feature viewers</a> <a class="hidden" href="#">interpro matches</a> <a href="#" class="show-more no-underline"><span class="icon icon-functional" data-icon="u"></span> show more</a></small>
                                   </div>
+                                  <div class="result-connections">
+                                    <ul class="dropdown simple menu" data-dropdown-menu>
+                                      <li>
+                                        <a class="small cross-references no-underline ebi-color" href="#"><i class="icon icon-generic" data-icon="D"></i> Entry cross references</a>
+                                        <ul class="menu">
+                                          <!-- <li class="menu-text">Entry has references in</li> -->
+                                          <li><a title="Gene expression references for entry K2C1_HUMAN from UniProtKB">Gene expression</a></li>
+                                          <li><a title="Bioactive molecules references for entry K2C1_HUMAN from UniProtKB">Bioactive molecules</a></li>
+                                          <li><a title="Nucleotide sequences references for entry K2C1_HUMAN from UniProtKB">Nucleotide sequences</a></li>
+                                          <li><a title="Genomes &amp; metagenomes references for entry K2C1_HUMAN from UniProtKB">Genomes &amp; metagenomes</a></li>
+                                          <li><a title="Literature references for entry K2C1_HUMAN from UniProtKB">Literature</a></li>
+                                          <li><a title="Samples &amp; ontologies references for entry K2C1_HUMAN from UniProtKB">Samples &amp; ontologies</a></li>
+                                          <li><a title="Diseases references for entry K2C1_HUMAN from UniProtKB">Diseases</a></li>
+                                          <li><a title="Molecular interactions references for entry K2C1_HUMAN from UniProtKB">Molecular interactions</a></li>
+                                          <li><a title="Protein families references for entry K2C1_HUMAN from UniProtKB">Protein families</a></li>
+                                          <li><a title="Protein expression data references for entry K2C1_HUMAN from UniProtKB">Protein expression data</a></li>
+                                          <li><a title="Reactions &amp; pathways references for entry K2C1_HUMAN from UniProtKB">Reactions &amp; pathways</a></li>
+                                          <li><a title="Protein sequences references for entry K2C1_HUMAN from UniProtKB">Protein sequences</a></li>
+                                        </ul>
+                                      </li>
+                                      <li>
+                                        <a class="small cross-references no-underline ebi-color" href="#"><i class="icon icon-generic" data-icon="L"></i> More views of this entry</a>
+                                        <ul class="menu">
+                                          <!-- <li class=""><a class="disabled" href="#">View this entry in</a></li> -->
+                                          <li class=""><a class="" href="#">Feature viewer</a></li>
+                                          <li class=""><a class="" href="#">Interpro Matches</a></li>
+                                          <li class=""><a class="" href="#">...</a></li>
+                                        </ul>
+                                      </li>
+
+                                    </ul>
+
+
+                                  </div>
+
+                                  <ul class="">
+
+                            			</ul>
                                 </div>
                               </div>
                               <div _ngcontent-tbl-97="" class="result">
@@ -3900,6 +3932,12 @@
         border-radius: 2px
       }
     </style>
+
+
+    <script src="https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.2/libraries/foundation-6/js/foundation.js"></script>
+    <!-- <script src="//www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.2/js/foundationExtendEBI.js"></script> -->
+    <script type="text/JavaScript">$(document).foundation();</script>
+    <!-- <script type="text/JavaScript">$(document).foundationExtendEBI();</script> -->
 
   </body>
 
